@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir -p /var/www/html/convectek.com/wp-content/themes
-mkdir -p /var/www/html/convectek.com/wp-content/plugins
+#mkdir -p /var/www/html/convectek.com/wp-content/themes
+#mkdir -p /var/www/html/convectek.com/wp-content/plugins
 ln -s /srv/www/uploads/sinkjuice/convectek.com/uploads/ /var/www/html/convectek.com/wp-content/uploads
 ln -s /srv/www/uploads/sinkjuice/convectek.com/themes/ /var/www/html/convectek.com/wp-content/themes
 ln -s /srv/www/uploads/sinkjuice/convectek.com/plugins/ /var/www/html/convectek.com/wp-content/plugins
